@@ -46,8 +46,9 @@ try:
       back_from_function = get_fruityvice_data(fruit_choice)
       streamlit.dataframe(back_from_function)
  
-#expect URLError as e:
-    #streamlit.error()
+expect URLError as e:
+   streamlit.error()
+streamlit.stop()
 
 #streamlit.text(fruityvice_response.json())
 
@@ -56,7 +57,7 @@ try:
 # write your own comment - what does this do?
 #streamlit.dataframe(fruityvice_normalized)
 
-streamlit.stop()
+
 
 #import snowflake.connector
 
